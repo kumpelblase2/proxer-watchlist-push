@@ -1,0 +1,14 @@
+{
+  "name": "proxer-notify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "kumpelblase2",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^3.4.0",
+    "nightmare": "^1.7.0",
+    "node-schedule": "^0.2.3",
+    "pushbullet": "^1.4.3"
+  }
+}
