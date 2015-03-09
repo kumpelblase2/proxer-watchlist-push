@@ -1,5 +1,9 @@
 module.exports = {
     pushbullet_key: '',
     username: '',
-    password: ''
+    password: '',
+    minutes: [
+        0,
+        30
+    ]
 };

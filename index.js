@@ -27,10 +27,10 @@ function sendPush(item) {
     pusher.link('', 'New EP of ' + item.name + ' is up!', item.link);
 }
 
-var rule = new schedule.RecurrenceRule();
-rule.minute = 30;
-var rule2 = new schedule.RecurrenceRule();
-rule2.minute = 0;
+var jobs = [];
 
-var j1 = schedule.scheduleJob(rule, job);
-var j2 = schedule.scheduleJob(rule2, job);
+_.each(config.minutes, function(minute) {
+    var rule = new schedule.RecurrenceRule();
+    rule.minute = minute;
+    jobs.push(schedule.scheduleJob(rule, job));
+});
