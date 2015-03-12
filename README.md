@@ -27,3 +27,6 @@ Second run `npm install` to fetch the other dependencies.
 Now, change the settings accordingly (see [the config section](#configuration) above).
 
 Lastly, run `node index.js` to start the application and you're all set.
+
+## License
+The software is licensed under the MIT license. A copy can be found in the `LICENSE` file inside this repository.
