@@ -20,7 +20,7 @@ Settings to change:
 - minutes: An array of minutes this application should be run at. E.g. if you set it to `[10, 40]` it would run every hour at minute 10 and 40 (8:10, 8:40, 9:10, 9:40, etc.). You can specify every minute if you like, but I would suggest you make at least a 5 minute pause between.
 
 ## Installation
-(If you haven't already, either clone this repository or download the [zip](archive/master.zip) of this repository.)
+(If you haven't already, either clone this repository or download the [zip](https://github.com/kumpelblase2/proxer-watchlist-push/archive/master.zip) of this repository.)
 
 First, install PhantomJS using one of their installation methods (see [here](http://phantomjs.org/download.html)).
 
