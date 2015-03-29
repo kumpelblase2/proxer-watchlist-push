@@ -6,9 +6,10 @@
   "author": "kumpelblase2",
   "license": "MIT",
   "dependencies": {
-    "lodash": "^3.4.0",
-    "nightmare": "^1.7.0",
+    "bluebird": "^2.9.14",
+    "lodash": "^3.5.0",
     "node-schedule": "^0.2.3",
+    "phantom": "^0.7.2",
     "pushbullet": "^1.4.3"
   }
 }
