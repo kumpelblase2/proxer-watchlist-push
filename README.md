@@ -1,6 +1,6 @@
 # Proxer Watchlist Push
-Send a push notification via pushbullet once a new EP of an anime on your watchlist is available. The applicatino checks (by default) every 30min if a new one is available, so it is not instant.
-You can, if you want to specifiy the time at which the application should check in the config (see below).
+Send a push notification via pushbullet once a new EP of an anime on your watchlist is available. The application checks (by default) every 30min if a new one is available, so it is not instant.
+You can, if you want to, specifiy the time at which the application should check in the config (see below).
 
 ## Dependencies
 Outside of the NPM dependecies, this application requires [PhantomJS](http://phantomjs.org/) to be installed on the system.
