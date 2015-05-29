@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "kumpelblase2",
   "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "bluebird": "^2.9.14",
     "lodash": "^3.5.0",
